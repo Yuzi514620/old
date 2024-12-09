@@ -1,0 +1,155 @@
+
+$(document).ready(function(){
+  $('#slider-carousel.owl-carousel').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin: 0,
+    nav: false,
+    dots: false,
+    stagePadding: 0,
+    responsive:{
+        0:{
+            items: 1
+        },
+        600:{
+            items: 2
+        },
+        1000:{
+            items:4
+        }
+    }
+  });
+
+});
+
+$(document).ready(function(){
+  $('#slider-speake.owl-carousel').owlCarousel({
+    autoplay:true,
+    loop:true,
+    nav: true,
+    responsive:{
+        0:{   
+          mouseDrag: true,
+          loop: true,
+          center: true,
+          items:1.5
+        },
+        600:{
+          mouseDrag: false,
+          autoplay:false,
+          items:2.5
+        },
+        1000:{
+          mouseDrag: false,
+          autoplay:false,
+          items:4
+        }
+    }
+});
+
+    
+    $('.owl-carousel-trend').owlCarousel({
+        loop: true,
+        margin: 0,
+        stagePadding: 0,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        dots: false,
+        nav: true,
+        autoplayHoverPause: true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+    
+});
+
+$(document).ready(function () {
+    $('.dropdown').hover(function () {
+        $(this).addClass('show');
+        $(this).find('.dropdown-menu').addClass('show');
+    }, function () {
+        $(this).removeClass('show');
+        $(this).find('.dropdown-menu').removeClass('show');
+    });
+});
+
+
+
+$(document).ready(function () {
+    var owl = $('#photoss-carousel.owl-carousel');
+    owl.owlCarousel({
+        loop: true,
+        autoplay:true,
+        autoplayTimeout: 3000,
+        nav: false,
+        dots: false,
+        items: 1,
+        responsive:{
+            0:{
+                items:1
+            },
+            992:{
+                items:1
+            }
+        }
+    });
+});
+
+$(document).ready(function () {
+    var owl = $('#trend-carousel.owl-carousel');
+    owl.owlCarousel({
+        nav: false,
+        dots: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            576: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+});
+
+$(document).ready(function () {
+    var owl = $('#spk-carousel.owl-carousel');
+    owl.owlCarousel({
+        stagePadding: 50,
+        margin:10,
+        nav: true,
+        dots: false,
+        loop: true,
+        lazyLoad:true,
+        autoplay: true,
+        autoplayHoverPause:true,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            576: {
+                items: 3
+            },
+            992: {
+                items: 4
+            },
+            1440: {
+                items: 5
+            }
+        }
+    });
+});
+

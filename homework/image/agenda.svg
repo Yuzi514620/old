@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 177.18 97.75">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#_未命名漸層_33);
+        mix-blend-mode: exclusion;
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: #2f3030;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-2" d="m-95.28,743.49h-1190.55V-50.21H-95.28v793.7Z"/>
+    </clipPath>
+    <linearGradient id="_未命名漸層_33" data-name="未命名漸層 33" x1="-1239.45" y1="1015.26" x2="-39.45" y2="142.96" gradientUnits="userSpaceOnUse">
+      <stop offset=".42" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#172a88"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-5">
+    <g id="content">
+      <g class="cls-1">
+        <rect class="cls-3" x="-1353.65" y="-128.43" width="1372.64" height="1455.63"/>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-4" points="59.92 74.78 58.66 82.35 66.92 87 66.92 76.71 59.92 74.78"/>
+          <polygon class="cls-4" points="59.79 72.87 66.92 70.28 66.92 60.27 58.32 65.2 59.79 72.87"/>
+          <polygon class="cls-4" points="58.52 73.63 52.15 68.73 43.37 73.76 52.85 79.09 58.52 73.63"/>
+        </g>
+        <g>
+          <polygon class="cls-4" points="28.74 21.83 30 14.26 21.74 9.61 21.74 19.9 28.74 21.83"/>
+          <polygon class="cls-4" points="28.86 23.74 21.74 26.32 21.74 36.34 30.34 31.41 28.86 23.74"/>
+          <polygon class="cls-4" points="30.14 22.97 36.5 27.88 45.28 22.85 35.81 17.52 30.14 22.97"/>
+        </g>
+        <g>
+          <polygon class="cls-4" points="148.44 25.27 147.18 32.84 155.44 37.48 155.44 27.19 148.44 25.27"/>
+          <polygon class="cls-4" points="148.32 23.36 155.44 20.77 155.44 10.76 146.84 15.68 148.32 23.36"/>
+          <polygon class="cls-4" points="147.04 24.12 140.68 19.22 131.9 24.25 141.37 29.57 147.04 24.12"/>
+        </g>
+        <g>
+          <polygon class="cls-4" points="117.26 73.63 118.52 66.06 110.26 61.41 110.26 71.7 117.26 73.63"/>
+          <polygon class="cls-4" points="117.39 75.54 110.26 78.13 110.26 88.14 118.86 83.22 117.39 75.54"/>
+          <polygon class="cls-4" points="118.66 74.78 125.02 79.68 133.81 74.65 124.33 69.32 118.66 74.78"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
